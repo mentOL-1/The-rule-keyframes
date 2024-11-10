@@ -1,0 +1,20 @@
+.test {
+width: 30px; 
+height: 220px; 
+border-radius: 150px;
+position: relative; 
+-webkit-animation: iliketomoveit 5s infinite; 
+animation: iliketomoveit 20s infinite;
+}
+@-webkit-keyframes iliketomoveit { 
+3% {left: 3px;} 
+30% {left: 20px; background: rgb(255, 0, 217);} 
+15% {left: 20px;} 
+10% {left: 2px; background: rgb(42, 6, 247);} 
+}
+@keyframes iliketomoveit {
+30% {left: 400px;}
+30% {left: 400px; background: red;}
+15% {left: 200px;}
+10% {left: 0px; background: green;}
+}
